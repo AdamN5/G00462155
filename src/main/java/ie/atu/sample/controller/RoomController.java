@@ -20,4 +20,5 @@ public class RoomController {
     public List<Room> getRooms() {
         return roomRepository.findAll();
     }
+
 }
